@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AllMind AI - Your AI Workspace</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#f4f7ff;
+ color:#17213b;
+}
+header{
+ background:linear-gradient(130deg,#101c3c,#263e83);
+ color:white;
+ padding:25px 7%;
+}
+nav{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+.logo{font-size:25px;font-weight:bold}
+.logo span{color:#6ee5ee}
+select{
+ padding:10px;
+ border-radius:10px;
+ border:0;
+}
+.hero{
+ text-align:center;
+ padding:65px 15px 85px;
+}
+.hero h1{
+ font-size:clamp(36px,6vw,65px);
+ margin:15px 0;
+}
+.hero h1 span{color:#72e2ec}
+.hero p{
+ color:#d4ddf5;
+ font-size:17px;
+ line-height:1.6;
+ max-width:650px;
+ margin:auto;
+}
+main{
+ max-width:1100px;
+ margin:-35px auto 50px;
+ padding:0 18px;
+}
+.welcome,.workspace,.feature{
+ background:white;
+ border-radius:18px;
+ padding:22px;
+ box-shadow:0 8px 30px #152b5810;
+}
+.welcome{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ gap:15px;
+}
+.welcome h2{margin:0}
+.welcome p{color:#71809d}
+.badge{
+ background:#e7f9ef;
+ color:#168253;
+ padding:9px 12px;
+ border-radius:20px;
+ font-size:12px;
+}
+h2{font-size:21px}
+.section{margin-top:28px}
+.grid{
+ display:grid;
+ grid-template-columns:repeat(4,1fr);
+ gap:13px;
+}
+.card{
+ background:white;
+ border:1px solid #e5eaf5;
+ border-radius:15px;
+ padding:17px;
+ cursor:pointer;
+ text-align:left;
+ min-height:135px;
+}
+.card:hover,.card.active{
+ border-color:#6681ff;
+ background:#f0f3ff;
+}
+.icon{font-size:27px}
+.card strong{display:block;margin:12px 0 6px}
+.card small{color:#71809d;line-height:1.4
